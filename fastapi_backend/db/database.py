@@ -1,14 +1,15 @@
 from motor.motor_asyncio import AsyncIOMotorClient
 from abc import ABC, abstractmethod
 from typing import List, Optional
-from ..model.location_model import Location,LocationDetail
+from ..model.location_model import Location
+from ..model.locationDetail_model import LocationDetail
 from ..model.device_model import Device
 from bson.codec_options import CodecOptions, UuidRepresentation
 from uuid import UUID
-import os
+from ..core.settings import settings
 
-DATABASE_URL = os.getenv("MONGODB_URL")
-DB_NAME = "physical_database"
+DATABASE_URL = settings.mongo_url
+DB_NAME = settings.mongo_db
 client = AsyncIOMotorClient(DATABASE_URL)
 db = client[DB_NAME]
 
@@ -70,7 +71,7 @@ class DeviceRepository(ABC):
 class MongoLocationRepository(LocationRepository):
     async def create_location(self, location: Location) -> Location:
         try:
-            print(location.model_dump(exclude_none=True))
+            # print(location.model_dump(exclude_none=True).pop("building_address"))
             await self.collection.insert_one(location.model_dump(exclude_none=True))
             return location
         except Exception as e:
@@ -126,9 +127,9 @@ class MongoLocationDetailRepository(LocationDetailRepository):
         except Exception as e:
             raise e
 
-    async def get_locations_detail_by_building_id(self, building_name: str) -> Optional[List[LocationDetail]]:
+    async def get_locations_detail_by_building_id(self, building_id: str) -> Optional[List[LocationDetail]]:
         try:
-            data = await self.collection.find({ "location_path": { "$regex": f".*{building_name}.*" } }).to_list(None)
+            data = await self.collection.find({ "location_path": { "$regex": f".*{building_id}.*" } }).to_list(None)
             return data
         except Exception as e:
             raise e   

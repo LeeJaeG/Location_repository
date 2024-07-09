@@ -1,0 +1,134 @@
+INFO:     Will watch for changes in these directories: ['/home/ubuntu/location']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [823175] using WatchFiles
+INFO:     Started server process [823178]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [823178]
+INFO:     Stopping reloader process [823175]
+INFO:     Will watch for changes in these directories: ['/home/ubuntu/location']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [823188] using WatchFiles
+INFO:     Started server process [823190]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     192.168.15.3:65192 - "GET /docs HTTP/1.1" 200 OK
+INFO:     192.168.15.3:65192 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.53.235:51234 - "GET /docs HTTP/1.1" 200 OK
+INFO:     192.168.53.235:51234 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.53.235:51234 - "GET /redoc HTTP/1.1" 200 OK
+INFO:     192.168.53.235:51234 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.53.235:51243 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:65131 - "GET /docs HTTP/1.1" 200 OK
+INFO:     192.168.53.235:65139 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.53.235:65278 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:65287 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:65328 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:49328 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:51198 - "GET /devices HTTP/1.1" 404 Not Found
+INFO:     192.168.53.235:51803 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:52001 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:52051 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:52127 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:52205 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:52320 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:53531 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:53665 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:55934 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:56859 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:56999 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:57135 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:57629 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:58250 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:49834 - "GET /docs HTTP/1.1" 200 OK
+INFO:     192.168.53.235:49834 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50517 - "GET /docs HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50517 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50517 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50518 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50520 - "GET /api/location/api/physical_layer/locations/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50520 - "GET /api/location/api/physical_layer/locations/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50524 - "GET /api/location-detail/api/physical_layer/locations_detail/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50539 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50540 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50546 - "GET /api/location-detail/api/physical_layer/locations_detail/dedde8df-d3a8-43d2-b75b-beb0c5e0d373 HTTP/1.1" 404 Not Found
+INFO:     192.168.53.235:50547 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50636 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50679 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50782 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:51300 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:51399 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:51582 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:51860 - "GET /api/location/api/physical_layer/locations/dedde8df-d3a8-43d2-b75b-beb0c5e0d373 HTTP/1.1" 200 OK
+INFO:     192.168.53.235:52015 - "GET /api/location-detail/api/physical_layer/locations_detail/dedde8df-d3a8-43d2-b75b-beb0c5e0d373 HTTP/1.1" 404 Not Found
+INFO:     192.168.53.235:52112 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:52153 - "GET /api/location/api/physical_layer/locations/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.235:52206 - "GET /api/location-detail/api/physical_layer/locations_detail/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.235:52290 - "GET /api/location-detail/api/physical_layer/locations_detail/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.235:52974 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:53012 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:53203 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:54009 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:54050 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:55180 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:55477 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:59076 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:49483 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:49483 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:49846 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50162 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50598 - "GET /docs HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50598 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50664 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:57052 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:57161 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:58357 - "GET /api/location/api/physical_layer/locations/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.235:58357 - "GET /api/location/api/physical_layer/locations/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.235:58496 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:58542 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:58997 - "GET /api/location-detail/api/physical_layer/locations_detail/660a6ce7360863434a4c8dd7 HTTP/1.1" 404 Not Found
+INFO:     192.168.53.235:59058 - "GET /api/location-detail/api/physical_layer/locations_detail/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.235:59801 - "GET /api/location-detail/api/physical_layer/locations_detail/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.235:60835 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:60860 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:62071 - "PUT /api/location-detail/api/physical_layer/locations_detail/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.235:62212 - "GET /api/location-detail/api/physical_layer/locations_detail/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.235:62261 - "PUT /api/location-detail/api/physical_layer/locations_detail/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.235:62310 - "GET /docs HTTP/1.1" 200 OK
+INFO:     192.168.53.235:62310 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.53.235:62345 - "GET /api/location-detail/api/physical_layer/locations_detail/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.235:62410 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:62535 - "GET /api/location/api/physical_layer/locations/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.235:63116 - "PUT /api/location-detail/api/physical_layer/locations_detail/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.235:63190 - "GET /api/location-detail/api/physical_layer/locations_detail/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.235:63211 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.53.235:64852 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:64977 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:65451 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50509 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:50553 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:55375 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:55858 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:56239 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:56239 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:57287 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.235:58437 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.187:61815 - "GET /api/location/api/physical_layer/locations/dcc17d38-623c-4961-b33c-e39bf2782d8e HTTP/1.1" 200 OK
+INFO:     192.168.53.187:64553 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.53.187:64553 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.15.3:62447 - "GET /docs HTTP/1.1" 200 OK
+INFO:     192.168.15.3:62447 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.15.3:62448 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.15.46:63466 - "GET / HTTP/1.1" 200 OK
+INFO:     192.168.15.46:63466 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     192.168.15.46:63466 - "GET /docs HTTP/1.1" 200 OK
+INFO:     192.168.15.46:63466 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.15.46:63467 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.15.46:64014 - "GET /api/device/devices HTTP/1.1" 200 OK
+INFO:     192.168.15.46:64153 - "GET /api/location/api/physical_layer/locations HTTP/1.1" 200 OK
+INFO:     192.168.15.3:58817 - "GET /docs HTTP/1.1" 200 OK
+INFO:     192.168.15.3:58817 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.53.11:55664 - "GET /api HTTP/1.0" 404 Not Found
